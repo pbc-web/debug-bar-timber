@@ -1,0 +1,25 @@
+{
+  "name": "timber/debug-bar-timber",
+  "description": "Adds a Panel to the Debug Bar for Timber information.",
+  "keywords": ["wordpress"],
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "jarednova",
+      "email": "jarednova@upstatement.com",
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/cedaro/cpt-archives/issues",
+    "source": "https://github.com/cedaro/cpt-archives"
+  },
+  "autoload": {
+    "psr-4": {
+      "Cedaro\\CPTArchives\\": "php/"
+    }
+  },
+  "require": {
+    "wpackagist-plugin/debug-bar": "*"
+  }
+}
