@@ -10,15 +10,6 @@
       "email": "jarednova@upstatement.com",
     }
   ],
-  "support": {
-    "issues": "https://github.com/cedaro/cpt-archives/issues",
-    "source": "https://github.com/cedaro/cpt-archives"
-  },
-  "autoload": {
-    "psr-4": {
-      "Cedaro\\CPTArchives\\": "php/"
-    }
-  },
   "require": {
     "wpackagist-plugin/debug-bar": "*"
   }
